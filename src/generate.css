@@ -1,0 +1,157 @@
+main {
+  display: flex;
+  gap: 70px;
+  width: 60%;
+  margin: 50px 0px;
+}
+
+.landing-side-1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.landing-side-2 {
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  place-self: center;
+  gap: 20px;
+}
+
+.AI-label {
+  background-color: #00fcfc18;
+  color: #00786f;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.AI-label span {
+  margin-right: 5px;
+}
+
+.AI-label .lucide-sparkles {
+  width: 16px;
+}
+
+.landing-text-1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.landing-text-2 {
+  font-size: 1.3rem;
+  line-height: 150%;
+  /* word-spacing: 0.5rem; */
+}
+
+.landing-btns {
+  display: flex;
+  gap: 20px;
+}
+
+.landing-btn-1 {
+  background-color: #4f39f6;
+  color: #fff;
+  border: 2px solid #4f39f6;
+}
+
+.landing-btn-2 {
+  background-color: #fff;
+  color: #4f39f6;
+  border: 2px solid #4f39f6;
+}
+
+.landing-btn-1,
+.landing-btn-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 34px;
+  border-radius: 10px;
+}
+
+.workflow-imgs {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.workflow-imgs > div {
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.workflow-imgs .lucide {
+  width: 30px;
+}
+
+.workflow-imgs .lucide-arrow-right {
+  width: 25px;
+  color: rgb(109, 109, 109);
+}
+
+.mic-img-container {
+  background-color: #e0e7ff;
+}
+
+.mic-img-container .lucide-mic {
+  color: #4f39f6;
+}
+
+.file-img-container {
+  background-color: #cbfbf1;
+}
+
+.file-img-container .lucide-file-text {
+  color: #009689;
+}
+
+.sparkles-img-container {
+  background-color: #f3e8ff;
+}
+
+.sparkles-img-container .lucide-sparkles {
+  color: #9810fa;
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.bar-cont-1,
+.bar-cont-2,
+.bar-cont-3 {
+  background-color: #f9fafb;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.bar-cont-active {
+  background-color: #f0fdfa;
+  border: 1px solid #c6d2ff;
+}
+
+.bar-1, .bar-2 {
+  width: 70%;
+  height: 14px;
+  background-color: #e6e6e6af;
+  border-radius: 8px;
+}
+
+.bar-1 {
+  width: 75%;
+}
+
+.bar-2 {
+  width: 100%;
+}
