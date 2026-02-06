@@ -10,7 +10,28 @@
   <body>
     <header>
       <div class="header-content-container">
-        <div class="project-title">ExamSense AI</div>
+        <div class="project-title">
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-graduation-cap w-6 h-6 text-white"
+              data-fg-55i5="1.60:2.1677:/components/Navbar.tsx:15:15:561:48:e:GraduationCap::::::CR9S"
+            >
+              <path
+                d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"
+              ></path>
+              <path d="M22 10v6"></path>
+              <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+            </svg>
+          </div>
+          ExamSense AI
+        </div>
         <nav>
           <p data-route="home">Home</p>
           <p data-route="generate">Generate</p>
@@ -216,8 +237,8 @@
           <h2>Why Students Choose ExamSense AI</h2>
           <p>Intelligent question generation designed for academic success</p>
           <div class="article-classification">
-            <div>
-              <div class="sparkle-container">
+            <div class="classification-1">
+              <div class="classification-img-container sparkle-container">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -228,7 +249,7 @@
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-sparkles w-6 h-6 text-indigo-600"
+                  class="lucide lucide-sparkles"
                   data-fg-ctt657="1.65:2.3287:/components/LandingPage.tsx:102:15:4868:48:e:Sparkles::::::DD2N"
                 >
                   <path
@@ -240,14 +261,94 @@
                   <path d="M5 18H3"></path>
                 </svg>
               </div>
+              <h3>AI-Powered Analysis</h3>
+              <p>
+                Advanced natural language processing understands lecture content
+                and generates relevant, challenging exam questions
+                automatically.
+              </p>
             </div>
-            <div></div>
-            <div></div>
+            <div class="classification-1">
+              <div class="classification-img-container file-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-file-text w-6 h-6 text-teal-600"
+                  data-fg-ctt664="1.65:2.3287:/components/LandingPage.tsx:113:15:5477:46:e:FileText::::::B1i5"
+                >
+                  <path
+                    d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"
+                  ></path>
+                  <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
+                  <path d="M10 9H8"></path>
+                  <path d="M16 13H8"></path>
+                  <path d="M16 17H8"></path>
+                </svg>
+              </div>
+              <h3>Multiple Formats</h3>
+              <p>
+                Generate essay questions, multiple choice, or short answer
+                questions based on your preferred exam format and study style.
+              </p>
+            </div>
+            <div class="classification-1">
+              <div class="classification-img-container mic-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-mic w-6 h-6 text-purple-600"
+                  data-fg-ctt671="1.65:2.3287:/components/LandingPage.tsx:124:15:6074:43:e:Mic::::::ELnR"
+                >
+                  <path
+                    d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"
+                  ></path>
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                  <line x1="12" x2="12" y1="19" y2="22"></line>
+                </svg>
+              </div>
+              <h3>Audio to Questions</h3>
+              <p>
+                Upload lecture recordings directly. Our AI transcribes and
+                analyzes audio to create comprehensive study questions
+                instantly.
+              </p>
+            </div>
           </div>
         </article>
       </main>
     </div>
-    <div id="generate"></div>
+    <div id="generate">
+      <main>
+        <div class="
+        ">
+          <h2>Generate Exam Questions</h2>
+          <p>
+            Paste your lecture transcript or study materials below, and our AI
+            will generate relevant exam questions.
+          </p>
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <button>Generate Questions with AI</button>
+        </div>
+      </main>
+    </div>
     <div id="upload"></div>
     <div id="about"></div>
     <script type="module" src="/src/main.js"></script>
