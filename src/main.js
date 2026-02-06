@@ -1,2 +1,2 @@
-import './generate.css'
+import './home.css'
 
