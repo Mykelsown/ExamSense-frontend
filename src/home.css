@@ -107,28 +107,34 @@ main {
 }
 
 .mic-img-container,
-.sparkle-container {
+.sparkle-container,
+.input-img-cont-1 {
   background-color: #e0e7ff;
 }
 
 .mic-img-container .lucide-mic,
-.sparkle-container {
+.sparkle-container,
+.input-box-1 .lucide-file-text {
   color: #4f39f6;
 }
 
-.file-img-container, .file-container {
+.file-img-container,
+.file-container, .input-img-cont-2 {
   background-color: #cbfbf1;
 }
 
-.file-img-container .lucide-file-text, .file-container {
+.file-img-container .lucide-file-text,
+.file-container, .input-box-2 .lucide-file-text {
   color: #009689;
 }
 
-.sparkles-img-container, .mic-container {
+.sparkles-img-container,
+.mic-container, .input-img-cont-3 {
   background-color: #f3e8ff;
 }
 
-.sparkles-img-container .lucide-sparkles, .mic-container {
+.sparkles-img-container .lucide-sparkles,
+.mic-container, .input-box-3 .lucide-settings {
   color: #9810fa;
 }
 
@@ -212,9 +218,10 @@ article h2 {
   font-size: 2.2rem;
 }
 
-article p {
+article p,
+.content-container > p {
   font-size: 1.2rem;
-  color: #858484;
+  color: #4e4e4e;
 }
 
 .article-classification {
@@ -248,3 +255,95 @@ article p {
 }
 
 /* Generate Page */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.content-container h1 {
+  font-size: 2.5rem;
+}
+
+.inputs-box-container {
+  display: flex;
+  flex-direction: column;
+  gap: ;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  /* width: 100%; */
+  padding: 30px;
+  margin: 20px 0px;
+}
+
+.box-texts-n-img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.box-texts-n-img h2 {
+  font-size: 1.2rem;
+}
+
+.box-texts-n-img p {
+  color: #4e4e4e;
+}
+
+.box-texts-n-img div:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+
+.box-texts-n-img div:nth-child(1) {
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.box-texts-n-img svg {
+  width: 21px;
+}
+
+.input-box textarea {
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px;
+}
+
+.input-box-1 textarea {
+  height: 150px;
+}
+
+.input-box-2 textarea {
+  height: 100px;
+}
+
+.selection-type-sect {
+  display: flex;
+  gap: 20px;
+  /* justify-content: space-evenly; */
+}
+
+.selection-type-sect div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 7px;
+}
+
+.selection-type-sect select {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.content-container button {
+  padding: 3ö0px;
+  border-radius: 10px;
+  border: none;
+}
